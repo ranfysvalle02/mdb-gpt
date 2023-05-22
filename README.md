@@ -3,6 +3,16 @@
 ## Inspired by: 
 https://github.com/wbleonard/atlas-vector-search-pdf
 
+## Disclaimer:
+knnBeta is in early access and should only be used for evaluation purposes only.
+https://www.mongodb.com/docs/atlas/atlas-search/knn-beta/
+
+```
+knnBeta
+NOTE
+This feature is in early access and available only for evaluation purposes, to validate functionality, and to gather feedback from a small closed group of early access users. It is not recommended for production deployments as we may introduce breaking changes. This feature doesn't include formal consulting, SLAs, or technical support obligations.
+```
+
 ## Introduction
 This demo is a prototype of how Atlas Vector Search could be used to enhance queries sent to GPT models by providing context relevant to the question.
 
