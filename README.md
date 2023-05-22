@@ -1,5 +1,7 @@
 # Atlas Vector Search + GPT Prompt
 
+![Demo](images/screenshot.png)
+
 ## Inspired by: 
 https://github.com/wbleonard/atlas-vector-search-pdf
 
