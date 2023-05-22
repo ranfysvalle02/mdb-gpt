@@ -1,4 +1,8 @@
 # Atlas Vector Search + GPT Prompt
+
+## Inspired by: 
+https://github.com/wbleonard/atlas-vector-search-pdf
+
 ## Introduction
 This demo is a prototype of how Atlas Vector Search could be used to enhance queries sent to GPT models by providing context relevant to the question.
 
