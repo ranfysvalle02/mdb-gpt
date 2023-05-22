@@ -1,5 +1,15 @@
 # Atlas Vector Search + GPT Prompt
 
+```
+ QUESTION:What steps should banks take to modernize their business?
+
+ ANSWER:
+
+ Banks should take an iterative approach to modernization, using an operational data layer (ODL) as a bridge between their existing systems and new ones. This approach can be broken into five phases: Simple ODL, Data Migration, Application Re-architecture, Application Modernization, and Continuous Improvement. This approach allows banks to offload traffic away from costly mainframe systems, rearchitect monolithic applications into a suite of microservices, build new business functionality faster, and scale new services to millions of users.
+```
+
+Using vector-search powered prompt engineering for your favorite LLM
+
 ![Demo](images/screenshot.png)
 
 ## Inspired by: 
