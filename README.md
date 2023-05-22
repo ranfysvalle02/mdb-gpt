@@ -12,6 +12,17 @@
 
 Using vector-search powered prompt engineering for your favorite LLM
 
+## Story:
+encode.py => takes PDF, splits it into chunks, encodes chunks as vectors
+
+query.py => grabs question, turns it into vectors, uses cosine similarity to compare the vectors, grabs chunks to "enhance" the context, passes question/context to GPT.
+
+Provides both the response from the enhanced context and the response without enhanced context.
+
+As you can imagine:
+QUESTION = "What steps should banks take to modernize their business?"
+without context will lead to responses that are unlikely to include MongoDB. By using vector search through a PDF on Bank Modernization, we can pull out relevant chunks of content and pass them as context to GPT to have a direct influence on the response
+
 ![Demo](images/screenshot.png)
 
 ## Inspired by: 
